@@ -5,8 +5,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
-	<link rel="stylesheet" href="./css/style.css">
-	<script src="citater.js" defer></script>
+	<!-- Nænæ, den her skal ikke loades endnu :) -->
+	<!-- <link rel="stylesheet" href="./css/style.css"> -->
+	<script src="scripts/citater.js" defer></script>
+	<script src="scripts/defer.js" defer></script>
+	<style>
+		body {
+			margin: 0;
+			display: grid;
+			grid-template-columns: 13vw auto 13vw;
+			grid-template-rows: 10vw auto 20vw;
+			grid-template-areas:
+				"header header header"
+				". main ."
+				"footer footer footer"
+		}
+	</style>
 </head>
 <body>
 	<a href="#content" class="sr-hidden">Skip to content</a>
